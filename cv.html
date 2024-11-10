@@ -47,23 +47,24 @@
     
             <button class="accordion" id="educacion">Educación</button>
             <div class="panel">
-                <p>- <b id="edu1">Ingeneria Informatica:</b> Universidad de Girona (udg) - cursando</p>
-                <p>- <b id="edu2">Desarrollo de Aplicaciones Multiplataforma:</b> Inst Rafael Campalans - 2021</p>
-                <p>- <b id="edu3">Sistemas microinformáticos y redes:</b> Inst Salvador Espriu - 2019</p>
-                <p>- <b id="edu4">Educación Secundaria obligatoria:</b> Ies Valvera - 2017</p>
-
+                <ul>
+                    <li><b> Ingeneria Informatica:</b> Universidad de Girona (udg) - cursando</li>
+                    <li><b>Desarrollo de Aplicaciones Multiplataforma:</b> Inst Rafael Campalans - 2021</li>
+                    <li><b>Sistemas microinformáticos y redes:</b> Inst Salvador Espriu - 2019</li>
+                    <li><b>Educación Secundaria obligatoria:</b> Ies Valvera - 2017</li>
+                </ul>
             </div>
     
             <button class="accordion" id="exp">Experiencia laboral</button>
             <div class="panel">
                 <ul>
                     <li>
-                        <b id="expnom1">Becario</b> - Skitude - 2020
-                        <p id="expdesc1">Mantenimiento los datos de un servidor SQL (Bases de datos). Disseño de rutas de mapas</p>
+                        <b>Becario</b> - Skitude - 2020
+                        <p>Mantenimiento los datos de un servidor SQL (Bases de datos). Disseño de rutas de mapas</p>
                     </li>
                     <li>
-                        <b id="expnom1">Becario</b> - Rsystem - 03/2019-07/2019
-                        <p id="expdesc2">Ofrecer a los clientes un servicio técnico informático, tanto presencial como online, reparaciones de todo tipo de material informático, como equipos, portátiles , impresoras , servidores.</p>
+                        <b>Becario</b> - Rsystem - 03/2019-07/2019
+                        <p>Ofrecer a los clientes un servicio técnico informático, tanto presencial como online, reparaciones de todo tipo de material informático, como equipos, portátiles , impresoras , servidores.</p>
                     </li>
                 </ul>
             </div>
@@ -88,25 +89,25 @@
                         <th id="materna">Materna</th>
                     </tr>
                     <tr>
-                        <td id="esp">Español</td>
-                        <td id="nativo">Nativo</td>
-                        <td id="nativo">Nativo</td>
-                        <td id="nativo">Nativo</td>
-                        <td id="si">Si</td>
+                        <td>Español</td>
+                        <td>Nativo</td>
+                        <td>Nativo</td>
+                        <td>Nativo</td>
+                        <td>Si</td>
                     </tr>
                     <tr>
-                        <td id="cat">Catalán</td>
-                        <td id="basic">Básico</td>
-                        <td id="basic">Básico</td>
-                        <td id="basic">Básico</td>
-                        <td id="no">No</td>
+                        <td>Catalán</td>
+                        <td>Básico</td>
+                        <td>Básico</td>
+                        <td>Básico</td>
+                        <td>No</td>
                     </tr>
                     <tr>
-                        <td id="eng">Inglés</td>
-                        <td id="bajo">Bajo</td>
-                        <td id="bajo">Bajo</td>
-                        <td id="medio">Medio</td>
-                        <td id="no">No</td>
+                        <td>Inglés</td>
+                        <td>Bajo</td>
+                        <td>Bajo</td>
+                        <td>Medio</td>
+                        <td>No</td>
                     </tr>
                 </table>
             </div>
@@ -137,29 +138,13 @@
                 document.getElementById("acerca").textContent = "Acerca de mí";
                 document.getElementById("descr").textContent = "Programador novato con ganas de mejorar en lo profesional y en lo personal. Aspiro desarrollarme en el mundo de los videojuegos como programador o diseñador, actualmente estoy buscando cualquier trabajo para poder completar mis estudios.";
                 document.getElementById("educacion").textContent = "Educación";
-                document.getElementById("edu1").textContent = "Ingenería Informatica:";
-                document.getElementById("edu2").textContent = "Desarrollo de Aplicaciones Multiplataforma:";
-                document.getElementById("edu3").textContent = "Sistemas microinformáticos y redes:";
-                document.getElementById("edu4").textContent = "Educación Secundaria obligatoria:";
                 document.getElementById("exp").textContent = "Experiencia laboral";
-                document.getElementById("expnom1").textContent = "Becario";
-                document.getElementById("expdesc1").textContent = "Mantenimiento los datos de un servidor SQL (Bases de datos). Disseño de rutas de mapas";
-                document.getElementById("expdesc2").textContent = "Ofrecer a los clientes un servicio técnico informático, tanto presencial como online, reparaciones de todo tipo de material informático, como equipos, portátiles , impresoras , servidores.";
                 document.getElementById("habilidad").textContent = "Habilidades";
-                document.getElementById("hab1").textContent = "";
-                document.getElementById("hab2").textContent = "";
-                document.getElementById("hab3").textContent = "";
                 document.getElementById("idiomas").textContent = "Idiomas";
                 document.getElementById("idioma").textContent = "Idioma";
                 document.getElementById("habla").textContent = "Hablado";
                 document.getElementById("escrito").textContent = "Escrito";
                 document.getElementById("materna").textContent = "Materna";
-                document.getElementById("nativo").textContent = "Nativo";
-                document.getElementById("si").textContent = "Si";
-                document.getElementById("no").textContent = "No";
-                document.getElementById("basic").textContent = "Básico";
-                document.getElementById("bajo").textContent = "Bajo";
-                document.getElementById("medio").textContent = "Medio";
             } else if (language === 'en') {
                 document.getElementById("esp").textContent = "Spanish";
                 document.getElementById("eng").textContent = "English";
@@ -169,29 +154,13 @@
                 document.getElementById("acerca").textContent = "About me";
                 document.getElementById("descr").textContent = "Novice programmer eager to improve professionally and personally. I aspire to develop in the world of video games as a programmer or designer. I am currently looking for any job to be able to complete my studies.";
                 document.getElementById("educacion").textContent = "Education";
-                document.getElementById("edu1").textContent = "Computer Engineering:";
-                document.getElementById("edu2").textContent = "Multiplatform Application Development:";
-                document.getElementById("edu3").textContent = "Microcomputer systems and networks:";
-                document.getElementById("edu4").textContent = "Compulsory secondary education:";
                 document.getElementById("exp").textContent = "Work experience";
-                document.getElementById("expnom1").textContent = "Scholar";
-                document.getElementById("expdesc1").textContent = "Maintaining data on a SQL server (Databases). Designing map routes";
-                document.getElementById("expdesc2").textContent = "Offer customers a technical computer service, both in person and online, repairs of all types of computer equipment, such as computers, laptops, printers, servers.";
                 document.getElementById("habilidad").textContent = "Skills";
-                document.getElementById("hab1").textContent = "";
-                document.getElementById("hab2").textContent = "";
-                document.getElementById("hab3").textContent = "";
                 document.getElementById("idiomas").textContent = "Languages";
                 document.getElementById("idioma").textContent = "Language";
                 document.getElementById("habla").textContent = "Speak";
                 document.getElementById("escrito").textContent = "Written";
                 document.getElementById("materna").textContent = "Maternal";
-                document.getElementById("nativo").textContent = "Native";
-                document.getElementById("si").textContent = "Yes";
-                document.getElementById("no").textContent = "No";
-                document.getElementById("basic").textContent = "Essential";
-                document.getElementById("bajo").textContent = "Low";
-                document.getElementById("medio").textContent = "Half";
             }
         }
         </script>
