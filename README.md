@@ -1,6 +1,6 @@
 # Hypermedia
 ## User Profile
-
+The user profile of this website is for people who want to showcase their resume in an intuitive and easy to update platform.
 ## Project analysis
 It has 2 main containers the “header” and the “main-container”:
  - The header has the picture, the name and two buttons to change the language.
