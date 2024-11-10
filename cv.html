@@ -16,18 +16,17 @@
 </head>
 <body>
         <!-- Cabecera -->
-        <div class="header">
-            <div class="image-box"></div>
-            <div class="name">René Rodriguez</div>
-            <div class="header-buttons">
-                <button onclick="changeLanguage('es')" id="esp">Español</button>
-                <button onclick="changeLanguage('en')" id="eng">Ingles</button>
-            </div>
-            
+    <div class="header">
+        <div class="image-box"></div>
+        <div class="name">René Rodriguez</div>
+        <div class="header-buttons">
+            <button onclick="changeLanguage('es')" id="esp">Español</button>
+            <button onclick="changeLanguage('en')" id="eng">Ingles</button>
         </div>
+    </div>
     <div class="main-container">
         <!-- Menú lateral -->
-        <div class="sidebar">
+        <div class="lateral">
             <h3 id="contacto">Contacto</h3>
             <p><i class="fas fa-phone"></i> 617-22-92-00</p>
             <p><i class="fas fa-envelope"></i>reneluis04@gmail.com</p>
@@ -37,14 +36,12 @@
             <a href="#"><i class="fas fa-folder"></i> Proyecto2</a>
             <a href="#"><i class="fas fa-folder"></i> Proyecto3</a>
         </div>
-    
         <!-- Contenido principal -->
-        <div class="content">
+        <div class="contenido">
             <button class="accordion" id="acerca">Acerca de mí</button>
             <div class="panel">
                 <p id="descr">Programador novato con ganas de mejorar en lo profesional y en lo personal. Aspiro desarrollarme en el mundo de los videojuegos como programador o diseñador, actualmente estoy buscando cualquier trabajo para poder completar mis estudios.</p>
             </div>
-    
             <button class="accordion" id="educacion">Educación</button>
             <div class="panel">
                 <ul>
@@ -54,7 +51,6 @@
                     <li><b>Educación Secundaria obligatoria:</b> Ies Valvera - 2017</li>
                 </ul>
             </div>
-    
             <button class="accordion" id="exp">Experiencia laboral</button>
             <div class="panel">
                 <ul>
@@ -68,16 +64,14 @@
                     </li>
                 </ul>
             </div>
-    
             <button class="accordion" id="habilidad">Habilidades</button>
             <div class="panel">
                 <ul>
-                    <li id="hab1">Habilidad 1</li>
-                    <li id="hab2">Habilidad 2</li>
-                    <li id="hab3">Habilidad 3</li>
+                    <li>Habilidad 1</li>
+                    <li>Habilidad 2</li>
+                    <li>Habilidad 3</li>
                 </ul>
             </div>
-    
             <button class="accordion" id="idiomas">Idiomas</button>
             <div class="panel">
                 <table>
@@ -132,7 +126,7 @@
             if (language === 'es') {
                 document.getElementById("esp").textContent = "Español";
                 document.getElementById("eng").textContent = "Ingles";
-                document.getElementById("cat").textContent = "Catalán";
+                //document.getElementById("cat").textContent = "Catalán";
                 document.getElementById("contacto").textContent = "Contacto";
                 document.getElementById("proyectos").textContent = "Proyectos";
                 document.getElementById("acerca").textContent = "Acerca de mí";
@@ -148,7 +142,7 @@
             } else if (language === 'en') {
                 document.getElementById("esp").textContent = "Spanish";
                 document.getElementById("eng").textContent = "English";
-                document.getElementById("cat").textContent = "Catalan";
+                //document.getElementById("cat").textContent = "Catalan";
                 document.getElementById("contacto").textContent = "Contact";
                 document.getElementById("proyectos").textContent = "Projects";
                 document.getElementById("acerca").textContent = "About me";
@@ -161,9 +155,9 @@
                 document.getElementById("habla").textContent = "Speak";
                 document.getElementById("escrito").textContent = "Written";
                 document.getElementById("materna").textContent = "Maternal";
-            }
+            }       
         }
         </script>
-</div>
+    </div>
 </body>
 </html>
