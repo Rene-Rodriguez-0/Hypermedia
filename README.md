@@ -3,7 +3,7 @@
 The user profile of this website is for people who want to showcase their resume in an intuitive and easy to update platform.
 ## Project analysis
 It has 2 main containers the “header” and the “main-container”:
- - The header has the picture, the name and two buttons to change the language.
+ - The header has the image, the name and two buttons to change the language (it does not change the language of the user information).
  - The “main-container” has two horizontal sub-containers, “lateral” and “content”:
    - “lateral” shows the contact and projects sections.
    - “content” shows about me, education, work experience, skills and languages.
